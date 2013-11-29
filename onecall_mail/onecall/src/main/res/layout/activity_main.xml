@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/TO"
+        android:id="@+id/textView"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1"
+        android:stackFromBottom="false"
+        android:scrollingCache="false"
+        android:choiceMode="singleChoice"
+        android:drawSelectorOnTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>

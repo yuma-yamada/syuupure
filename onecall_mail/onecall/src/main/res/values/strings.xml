@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">onecall_mail</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="TO">宛先</string>
+    <string name="subject">件名</string>
+    <string name="msg">内容</string>
+    <string name="setting">設定</string>
+    <string-array name="mail_add">
+        <item>test@gmail.com</item>
+        <item>aaa@ezweb.ne.jp</item>
+        <item>test1@softbank.ne.jp</item>
+    </string-array>
+    <string-array name="sub_add">
+        <item>今から帰ります</item>
+        <item>遅くなりそう</item>
+        <item>帰れないかも</item>
+    </string-array>
+    <string-array name="msg_add">
+        <item>今から帰ります</item>
+        <item>今日は帰るのが遅くなりそう</item>
+        <item>今日はちょっと帰れなくなってしまった</item>
+    </string-array>
+
+</resources>
